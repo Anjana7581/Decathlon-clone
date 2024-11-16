@@ -1,0 +1,104 @@
+
+.Home-Footer{
+  display: flex;
+  background-color:white;
+  margin: 10px 0;
+  padding: 10px;
+  height: 445px;
+}
+.left-head{
+    display: flex;
+    background-color: hsl(0, 17%, 94%);
+    /* margin-right: 10px; */
+    width: 72vw;
+    gap: 20px;
+    height: 80px;
+}
+.footer-list{
+    display: flex;
+    margin:40px 10px;
+    line-height: 20px;
+}
+.footer-list li{
+    color:rgb(113, 108, 108);
+}
+ul {
+    font-size: 15px;
+  }
+  
+  li {
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 5px;
+
+  }
+
+.fl-1,.fl-2,.fl-3,.fl-4{
+    padding-right: 150px;
+
+}
+h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+hr{
+    width: 72vw;
+    color: black;
+}
+.ftr-tran{
+    display: flex;
+}
+.ftr-3{
+    margin: 20px;
+}
+.ftr-3 img{
+    width: 85px;
+    padding: 10px;
+}
+
+
+
+
+.right-head{
+    height: 90px;
+    background-color: hsl(0, 17%, 94%);
+    width: 390px;
+    margin-left: -40px;
+
+}
+.online-img {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    gap: 10px;
+    margin-left: 80px;
+}
+.right-follows{
+    margin-top: 5px;
+    margin-left: -40px;
+    background-color: hsl(0, 17%, 94%);
+    height: 22vw;
+}
+
+.right-container h3 ,h4 {
+    padding: 15px 0 0px 28px;
+}
+.online-site{
+    display: flex;
+    margin:10px 0 0 20px ;
+    width: 350px;
+    height: 70px;
+}
+.site-1,.site-2,.site-3,.site-4{
+    background-color: rgb(51, 52, 59);
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin: 15px  40px 0 20px;
+    border-radius: 5px;
+}
+ .ftr-content{
+    padding-left: 620px;
+    height: 30px;
+    color:rgb(113, 108, 108);
+ }  

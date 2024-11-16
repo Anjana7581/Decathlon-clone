@@ -1,0 +1,243 @@
+.navbar{
+  display: none;
+}
+.offer{
+  display: none;
+}
+.signin{
+  font-family: sans-serif;
+}
+.head{
+  width: 100%;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Allows positioning of back-icon */
+}
+.back-icon{
+  position: absolute;
+  left: 40px; /* Adjust the distance from the left edge */
+  font-size: 30px;
+  cursor: pointer;
+  
+}
+.signin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin-logo img {
+  height: 115px; /* Adjust the height as needed */
+  padding-top: 10px;
+  cursor: default;
+}
+
+.signin-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Changed from center to stretch */
+    
+  }
+  
+  .signinimg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh; /* Ensure the div takes full height */
+  }
+  
+  .signinimg img {
+    width: 104%;
+    height: 100%;
+    margin-top: 20px;
+    z-index: 10;
+    object-fit: cover; /* Ensure the image covers the entire div */
+  }
+  
+  .login-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 86vh; /* Set the max height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    
+  }
+  
+  .login-scroll{
+    margin: 45px  0 0  110px;
+    
+  }
+   /* h5{
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .form-signin{
+    display: flex;
+    padding: 40px 0 0 0;
+    gap: 10px;
+    width: 500px;
+  }
+
+.form-signin {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+.container{
+  margin: 15px 0px ;
+}
+.text1{
+  margin-right: 35px;
+}
+
+
+.email input,
+.phonenum input {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle-buttons span {
+  cursor: pointer;
+}
+
+.btn {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(9, 9, 180);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 477px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  margin-bottom: 9px;
+  height: 47px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 90px;
+  justify-content: space-between;
+}
+
+.dropdown .arrow {
+  margin-left: auto;
+}
+
+.phone-input {
+  width: calc(100% - 130px);
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown-options {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 90px;
+  margin-top: 5px;
+  z-index: 1;
+ 
+}
+
+.dropdown-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+.social{
+  display: flex;
+  
+} 
+.google {
+  width: 40px;
+  border: 1px solid rgb(225, 217, 217);
+  margin: 10px 0;
+  height: 45px;
+  overflow: hidden;
+
+
+}
+.google img{
+   padding-top: 5px;
+   width: 35px;
+}
+.fbk {
+  width: 40px;
+  border: 1px solid rgb(225, 217, 217);
+  margin:  10px ;
+  overflow: hidden;
+  height: 45px;
+
+
+} 
+.fbk img{
+ width: 55px;
+ margin-left: -8px;
+}
+.aple{
+  width: 40px;
+  border: 1px solid rgb(225, 217, 217);
+  margin: 10px 0;
+  height: 45px;
+  overflow: hidden;
+
+
+}
+.aple img{
+  width: 40px;
+}
+hr{
+  width: 15.5rem;
+}
+
+.foot{
+  padding-top: 10px;
+  font-size: 12px;
+  color: gray;
+}
+.foot{
+  margin: 20px 0 20px 0;
+}
+
+ */
+
+
+
+

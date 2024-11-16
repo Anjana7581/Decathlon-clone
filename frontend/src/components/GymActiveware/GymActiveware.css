@@ -1,0 +1,21 @@
+.GymActiveware-container {
+    display: flex;
+    padding: 10px;
+  }
+  .GymActiveware-container li{
+    cursor: pointer;
+  }
+  .gym-1, .gym-2, .gym-3, .gym-4
+{
+    padding-right:45px;
+
+}
+
+ul h2 {
+    padding-left: 0;
+  }
+
+
+
+
+

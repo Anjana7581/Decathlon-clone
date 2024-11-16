@@ -1,0 +1,182 @@
+.navbar{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+ 
+  .menu-icon-text{
+    display: flex;
+  }
+.menu-icon{
+    padding-left: 63px;
+    font-size: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.text{
+    margin:20px;
+    margin-top: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+}
+.logo { 
+    width: 170px;/* Adjust the width as needed */
+    padding-left: 20px;
+    cursor: pointer;
+}
+.logo img {
+    width: 100%; /* Ensures the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.search-box {
+    position: relative;
+    margin-left:60px; /* Pushes the search box to the right */
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px; /* Adjust the position of the icon */
+    top: 50%;
+    color:rgb(143, 143, 143);
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the icon doesn't interfere with input events */
+}
+
+
+
+.search-box input {
+    width: 480px; /* Adjust the width as needed */
+    padding-left: 40px; /* Adjust padding as needed */
+    padding-right: 25px;
+    border: 1px solid #fffdfd; /* Add border for better visibility */
+    border-radius: 20px; /* Optional: Add border radius for rounded corners */
+    font-size: 14px; /* Adjust font size as needed */
+    background-color: rgb(237, 237, 237);
+    height: 40px;
+    /* Add any other styles as needed */
+}
+.close-icon {
+    position: absolute;
+    right: 10px; /* Adjust the position */
+    top: 30%;
+    /* transform: translateY(-50%); */
+    cursor: pointer;
+    color: rgb(35, 35, 142);
+}
+.search-input:focus{
+    outline: none;
+}
+.search-input:not(:placeholder-shown) {
+    color: rgb(108, 101, 101);
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin-left: 45px;
+    white-space: nowrap;
+}
+.del-location{
+    font-size: 13px;
+    padding-left: 55px;
+    line-height: 20px;
+    
+}
+
+
+.nav-links li {
+    
+    /* margin-left: -30px; */
+    font-size: 12px;
+    cursor: pointer;
+    line-height: 18px;
+    padding: 19px;
+    /* padding-right: 70px; */
+
+    
+}
+.button-signin{
+    display: none;
+} 
+.icon {
+    margin-left: 8px;
+    font-size: 20px;
+
+}
+.cart-icon{
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.location {
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    /* Remove button-like appearance */
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    /* Additional styles to ensure it's styled as plain text */
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+   
+    .navbar{
+        height:fit-content;
+        
+    }
+    .menu-icon{
+        padding-left: 20px;
+        font-size: 25px;
+        margin-top: -10px;
+        cursor: pointer;
+        
+    }
+    .text{
+        display: none;
+    }
+    .logo img{
+        margin:0px 0px 10px -10px;
+        width: 130px;
+        
+        
+    }
+    .btn{
+         margin: 0px 10px 10px 20px ;
+         text-align: center;
+    }
+    .button-signin {
+        display: block;
+        padding:5px;
+        border-radius: 20px; /* This makes the button oval-shaped */
+        color: rgb(0, 0, 0);
+        border-color: black;
+        text-decoration: none;
+        background-color: white;
+        font-size: 10px;
+        cursor: pointer;
+        white-space: nowrap; /* Prevents text wrapping */
+        
+      
+    }
+   
+
+}
+
+    
+
+
+
+
+
+
+

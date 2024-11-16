@@ -1,0 +1,222 @@
+
+.login-scroll{
+    margin: 45px  0 0  110px;
+    
+  }
+   h5{
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .form-signin{
+    display: flex;
+    padding: 40px 0 0 0;
+    gap: 10px;
+    width: 500px;
+  }
+  /* Add this CSS to your existing Signin.css file */
+
+.form-signin {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+.container{
+  margin: 15px 0px ;
+}
+.text1{
+  margin-right: 35px;
+}
+/* .email-p{
+  margin: 34px 0;
+} */
+
+.email input {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* LoginForm.css */
+
+.input-container {
+  position: relative;
+}
+
+.email-input-container input {
+  padding-right: 30px; /* Add padding to make room for the tick */
+}
+
+.email-input-container input.valid {
+  border-color: #00f; /* Set blue border color for valid email */
+}
+
+.valid-feedback {
+  color: green;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  opacity: 0; /* Initially hidden */
+}
+
+.valid-feedback.show {
+  opacity: 1; /* Show when email is valid */
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.email-input-container input.invalid {
+  border-color: #f00; /* Set red border color for invalid email */
+}
+
+
+
+
+
+.email-p{
+  margin: 20px 0;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle-buttons span {
+  cursor: pointer;
+}
+
+.btn {
+  width: calc(100% - 20px);
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(9, 9, 180);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 477px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  margin-bottom: 9px;
+  height: 47px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 90px; /* Adjust the width as needed */
+  justify-content: space-between;
+}
+
+.dropdown .arrow {
+  margin-left: auto;
+}
+
+.phone-input {
+  width: calc(100% - 130px); /* Adjusted to account for dropdown width */
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown-options {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 90px; /* Adjust the width as needed */
+  margin-top: 5px;
+  z-index: 1;
+ 
+}
+
+.dropdown-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+.social{
+  display: flex;
+  
+} 
+.google {
+  width: 40px;
+  border: 1px solid rgb(225, 217, 217);
+  margin: 10px 0;
+  height: 45px;
+  overflow: hidden;
+  cursor: pointer;
+
+
+}
+.google img{
+   padding-top: 5px;
+   width: 35px;
+}
+.fbk {
+  width: 40px;
+  border: 1px solid rgb(225, 217, 217);
+  margin:  10px ;
+  overflow: hidden;
+  height: 45px;
+  cursor: pointer;
+
+} 
+.fbk img{
+ width: 55px;
+ margin-left: -8px;
+}
+.aple{
+  width: 40px;
+  border: 1px solid rgb(225, 217, 217);
+  margin: 10px 0;
+  height: 45px;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.aple img{
+  width: 40px;
+}
+.hrline{
+  width: 15.5rem;
+}
+
+.foot{
+  padding-top: 10px;
+  font-size: 12px;
+  color: gray;
+}
+.foot{
+  margin: 20px 0 20px 0;
+}
+
+

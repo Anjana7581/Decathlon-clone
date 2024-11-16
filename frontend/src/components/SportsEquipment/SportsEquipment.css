@@ -1,0 +1,17 @@
+.SportsEquipment-container {
+    display: flex;
+    padding: 10px;
+  }
+  .SportsEquipment-container li{
+    cursor: pointer;
+  }
+  
+
+ul h2 {
+    padding-left: 0;
+  }
+
+
+
+
+

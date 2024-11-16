@@ -1,0 +1,21 @@
+.men-container{
+    display: flex;
+    padding: 10px;
+}
+
+.men-container li{
+    cursor: pointer;
+  }
+  .men-1,.men-2,.men-3,.men-4,.men-5{
+padding-right: 30px;
+  }
+  
+ ul h2 {
+    padding-left: 0;
+  }
+
+
+
+
+
+

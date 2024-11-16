@@ -1,0 +1,30 @@
+.f-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    color: blue;
+    margin: 10px 0 30px 0;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    padding: 10px; /* Optional: Add some padding for better appearance */
+    height: 80px;  
+}
+  
+  .f-emi,
+  .f-return,
+  .f-customer {
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .f-separator {
+    margin: 0 10px;
+    color: #2118a0; /* Change the color of the separator as needed */
+    font-size: 40px; /* Adjust the font size to increase the "|" symbol height */
+    line-height: 100px; /* Adjust the line height to vertically center the "|" symbol */
+  }
+  

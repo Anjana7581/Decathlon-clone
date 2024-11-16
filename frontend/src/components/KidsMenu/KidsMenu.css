@@ -1,0 +1,39 @@
+.Kids-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Kids-container li{
+    cursor: pointer;
+  }
+.f-one{
+    display: flex;
+}
+.f-two{
+    display: flex;
+}
+.kid-1,.kid-2,.kid-3,.kid-4,.kid-5{
+    padding-right: 60px;
+}
+.kid-6{
+    padding-left: 0px;
+
+}
+.kid-7{
+    padding-left: 20px;
+
+}
+.kid-8{
+    padding-left: 72px;
+
+}
+.kid-9{
+    padding-left: 58px;
+
+}
+.kid-10{
+    padding-left: 135px;
+
+}
+
+

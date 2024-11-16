@@ -1,0 +1,7 @@
+.f-container{
+    display: flex;
+    width: 100%;
+    background-color:gray ;
+    margin: 10px;
+    color: blue;
+}

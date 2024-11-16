@@ -1,0 +1,46 @@
+.all-sports-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .flex-one, .flex-two {
+    display: flex;
+  }
+  
+  ul {
+    font-size: 15px;
+  }
+  
+  li {
+    cursor: pointer;
+  }
+  
+  .as-1, .as-2, .as-3, .as-4, .as-5 {
+    padding-right: 53px;
+  }
+  
+  .as-6 {
+    padding-left: 0px;
+  }
+  
+  .as-7 {
+    padding-left: 60px;
+  }
+  
+  .as-8 {
+    padding-left: 120px;
+  }
+  
+  .as-9 {
+    padding-left: 150px;
+  }
+  
+  .as-10 {
+    padding-left: 100px;
+  }
+  
+  ul h2 {
+    padding-left: 0px;
+  }
+  

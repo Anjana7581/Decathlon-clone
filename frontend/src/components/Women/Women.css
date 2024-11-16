@@ -1,0 +1,14 @@
+.Women-container{
+    display: flex;
+    padding: 10px;
+}
+.Women-container li{
+    cursor: pointer;
+  }
+  ul h2 {
+    padding-left: 0;
+  }
+  .wom-1,.wom-2,.wom-3,.wom-4,.wom-5{
+    padding-right: 30px;
+  }
+

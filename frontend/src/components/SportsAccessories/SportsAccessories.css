@@ -1,0 +1,27 @@
+.SportsAccessories-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .SportsAccessories-container li{
+    cursor: pointer;
+  }
+  .fl-one, .fl-two {
+    display: flex;
+  }
+.acc-1,.acc-2,.acc-3,.acc-4,.acc-5{
+    padding-right: 30px;
+
+}
+.acc-6{
+    padding-left: 0px;
+
+}
+ul h2 {
+    padding-left: 0;
+  }
+
+
+
+
+

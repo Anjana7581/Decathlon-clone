@@ -1,0 +1,25 @@
+.menusidebar-container{
+    height: 560px;
+}
+.sidebar-btn{
+    color: white;
+    background-color: blue;
+    width: 307px;
+    height: 40px;
+    margin-top: 194px;
+    border: none;
+    padding: 0;
+}
+.sidebar-list ul{
+ padding: 20px 0px 0px 15px;
+}
+
+.sidebar-list li {
+    font-size: 13px;
+    color: black;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+
+

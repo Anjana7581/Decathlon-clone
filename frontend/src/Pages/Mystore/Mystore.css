@@ -1,0 +1,44 @@
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px; /* Adjust as needed */
+    text-align: center;
+    padding: 20px; /* Optional: add some padding */
+    color: rgb(35, 35, 142);
+
+  }
+  h1{
+    font-size: 26px;
+  }
+  
+.location-map-wrapper {
+  height: 580px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc; /* Optional: to visualize the div boundary */
+}
+
+.location-map {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.location-map::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.location-map {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.location-map img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

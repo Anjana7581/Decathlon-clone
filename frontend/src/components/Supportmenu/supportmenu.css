@@ -1,0 +1,33 @@
+.s-menu {
+    
+    position: fixed; /* Changed from absolute to fixed */
+    top: 0;
+    left: 0;
+    width: 335px;
+    height: 100%;
+    background-color: white;
+    z-index: 1000; /* Ensure it stays on top */
+    overflow-y: auto; /* Allows scrolling within the menu if content overflows */
+  }
+  
+  .s-menu h1 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    padding-left: 10px;
+    gap: 30px;
+  }
+  
+  .supportmenu-list {
+    margin: 40px;
+    
+  }
+  
+  .supportmenu-list li {
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    line-height: 23px;
+  }
+   

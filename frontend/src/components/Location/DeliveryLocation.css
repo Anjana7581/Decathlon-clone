@@ -1,0 +1,95 @@
+/* DeliveryLocation.css */
+
+.delivery-location-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  height: 730px;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+h1{
+  font-size:2rem;
+  padding: 20px  0 10px 0;
+}
+
+.dark-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+}
+
+.popup-content {
+  position: relative; /* Make the close icon absolute relative to this */
+  background-color: white;
+  height: 450px;
+  margin-left: 12px;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.de-location{
+  display: flex;
+
+}
+.delivery-one {
+  padding:20px 30px;
+  background-color: aqua;
+  width: 41%;
+  height: 450px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+.delivery-two {
+  padding: 20px 30px;
+}
+
+h2{
+padding: 20px;
+font-size: medium;
+
+}
+p{
+  font-size:small;
+}
+
+.del-login{
+  background-color: aqua;
+  padding: 20px;
+  width: 350px;
+  border-radius: 5px;
+  
+  /* box-shadow:  5px  rgba(0, 0, 0, 0.2); */
+
+}
+
+.del-pin{
+  background-color: aqua;
+  padding: 20px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.location-close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: gray;
+  font-size: 20px;
+}

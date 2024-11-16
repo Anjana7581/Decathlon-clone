@@ -1,0 +1,55 @@
+/* Add this to your HomeOneCard.css file */
+
+.SUPPORT-card-container {
+    padding: 20px ; /* Adjust padding as needed */
+    margin: 50px 0 10px 200px;
+    height: 158vh;
+    
+  }
+  
+  /* HomeOneCard.css */
+  
+  /* Flexbox container for category cards */
+  .category-cards-1,.category-cards-2,.category-cards-3 ,.category-cards-4 {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  
+  /* Category Cards */
+  .card {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px  0px 2px 0px;
+    width: 250px;
+    height: 280px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px; /* Add margin between cards */
+    transition: transform 0.3s ease;
+    flex: 0 0 auto; /* Prevent cards from shrinking or growing */
+  }
+  
+  /* .card:hover {
+    transform: scale(1.05);
+  } */
+  
+  .card-img-top {
+    width: 200px;
+    height: 200px; /* Adjust height as needed */
+    margin-left: 15px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-body {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Customize further as needed */
+  

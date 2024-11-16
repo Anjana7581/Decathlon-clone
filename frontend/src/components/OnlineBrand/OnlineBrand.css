@@ -1,0 +1,21 @@
+.OnlineBrand-container {
+    display: flex;
+    padding: 10px;
+  }
+  .OnlineBrand-container li{
+    cursor: pointer;
+  }
+  .on-1,.on-2,.on-3,.on-4
+{
+    padding-right: 120px;
+
+}
+
+ul h2 {
+    padding-left: 0;
+  }
+
+
+
+
+

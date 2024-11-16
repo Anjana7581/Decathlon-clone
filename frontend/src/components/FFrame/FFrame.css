@@ -1,0 +1,29 @@
+.fframe {
+ 
+    justify-content: center; /* Centers the images horizontally */
+    align-items: center; /* Aligns the images vertically if needed */
+    width: 100%; /* Makes sure the container takes full width of its parent */
+  }
+  .fframe h3{
+    margin: 20px;
+  }
+  
+  .images {
+    display: flex;
+  
+  }
+  
+  .images img {
+    flex: 1; /* Each image will take equal space */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+     /* Maintains the aspect ratio */
+    /* object-fit: cover; Ensures the image covers its container */
+    margin: 10px;
+    height: 390px;
+  }
+  @media (max-width: 768px){
+    .fframe{
+      overflow: hidden;
+    }
+  }
+  
